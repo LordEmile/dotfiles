@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "update.mode": "none",
+    "workbench.iconTheme": "gruvbox-material-icon-theme",
+    "workbench.colorCustomizations": {
+
+
+        
+
+    },
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "bottom",
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
+    "workbench.layoutControl.enabled": false,
+    "explorer.decorations.badges": false,
+    "chat.disableAIFeatures": true
+
+}
