@@ -1,0 +1,99 @@
+* {
+	border: none;
+	font-family: "jetbrains mono nerd font";
+}
+
+window#waybar {
+	background-color: transparent;
+}
+
+tooltip {
+	background-color: #282828;
+	border: 2px solid rgb(69, 71, 87);
+}
+
+tooltip label {
+  color: white;
+}
+
+#network,
+#pulseaudio,
+#battery,
+#backlight,
+#clock,
+#memory,
+#cpu,
+#tray,
+#user,
+#bluetooth,
+#custom-power,
+#custom-media,
+#custom-notifications,
+#workspaces,
+#power-profiles-daemon,
+#custom-music {
+	margin-top: 6px;
+	margin-left: 8px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+	transition: none;
+
+	font-size: 12px;
+	color: #ebdbb2;
+	background-color: #282828;
+	border: 2px solid rgb(69, 71, 87);
+	border-radius: 10px;
+}
+
+#battery.charging,
+#battery.plugged {
+	color: #ebdbb2;;
+	background-color: #282828;
+	border: 2px solid rgb(55, 76, 50);
+	border-radius: 10px;
+}
+
+#battery.critical:not(.charging) {
+	color: #f7a6a6;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	background-color: #282828;
+	border: 2px solid rgb(69, 71, 87);
+	border-radius: 10px;
+}
+
+@keyframes blink {
+	to {
+		color: #ebdbb2;
+	}
+}
+
+#custom-power {
+	margin-right: 10px; /* Pad the right side of the full bar */	
+	padding-right: 12px;
+}
+
+#workspaces button {
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+	color: #ebdbb2;
+}
+
+#workspaces button.focused {
+	background-color: #282828;
+	color: #ebdbb2;
+}
+
+#workspaces button.active {
+	background-color: #282828;
+	color: #ebdbb2;
+}
