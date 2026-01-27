@@ -13,7 +13,6 @@
     "workbench.sideBar.location": "right",
     "window.menuBarVisibility": "toggle",
     "workbench.activityBar.location": "bottom",
-    "window.customTitleBarVisibility": "never",
     "window.titleBarStyle": "native",
     "workbench.layoutControl.enabled": false,
     "explorer.decorations.badges": false,
