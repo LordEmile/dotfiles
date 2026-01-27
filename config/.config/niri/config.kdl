@@ -163,6 +163,7 @@ binds {
     Mod+Shift+B {spawn "zen-browser";}
     Mod+B {spawn "alacritty" "-e" "env" "EDITOR=nvim" "VISUAL=nvim" "yazi";}
     Mod+Shift+L {spawn "swaylock";}
+    Mod+L {spawn "nwg-bar";}
 
     // Utils
 
