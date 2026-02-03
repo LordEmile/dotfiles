@@ -164,6 +164,7 @@ binds {
     Mod+B {spawn "alacritty" "-e" "env" "EDITOR=nvim" "VISUAL=nvim" "yazi";}
     Mod+Shift+L {spawn "swaylock";}
     Mod+L {spawn "nwg-bar";}
+    Mod+N {spawn "obsidian";}
 
     // Utils
 
